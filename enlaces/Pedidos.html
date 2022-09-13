@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../estiloCss/imagenes/artso.ico">
+	<link rel="stylesheet" type="text/css" href="../normalize.css">
+	<link rel="stylesheet" type="text/css" href="../estiloCss/estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<title>クリス Shop</title>
+</head>
+<body class="backgroundNosotros">	
+	<header>
+    <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="../index.html"><i class="fa fa-home site-nav--icon"></i>HOME</a></li>
+                <li><a href="Nosotros.html"></i>ABOUT US</a></li>
+                <li><a href="#"><i class="fa fa-pencil-alt site-nav--icon"></i><strong>SHOP</strong></a></li>
+                <li><a href="Recetas.html"><i class="fa fa-dollar-sign site-nav--icon"></i>RECIPES</a></li>
+                <li><a href="Contacto.html"><i class="fa fa-envelope site-nav--icon"></i>CONTACT</a></li>
+            </ul><div class="container">
+            <img class="logo" src=""> 
+        </div>
+        </nav>
+
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
+        </div>
+	</header>
+				<!----------------------------------------->
+	<div class="header-section container">
+        <div class="carroCompra">
+            <img onmouseover="showCart(this)" class="cart" src="../estiloCss/imagenes/carro.png" alt="">
+            <p class="count-product">0</p>
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+            <h3>Mi carrito</h3>
+            <div class="card-items">
+                 
+            </div>
+                <h2>Total: <strong class="price-total">0</strong> €</h2>
+            </div>
+        </div>
+        <div class="pedidos">
+            <h1>Shop</h1>
+        </div>
+	<section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="../estiloCss/imagenes/aguacate3.png" alt="">
+                    <p><span>20</span>€</p>
+                </div>
+                <p class="title">Pack sushi.</p>
+                <a href="" data-id="1" class="btn-add-cart">Añadir al carrito</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../estiloCss/imagenes/aguacate1.png" alt="">
+                    <p><span>35</span>€</p>
+                </div>
+                <p class="title">Pack sushi.</p>
+                <a href="" class="btn-add-cart" data-id="2">Añadir al carrito</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="../estiloCss/imagenes/aguacate2.png" alt="">
+                    <p><span>15.50</span>€</p>
+                </div>
+                <p class="title">Pack sushi.</p>
+                <a href="" data-id="3" class="btn-add-cart">Añadir al carrito</a>
+            </div>
+        </div>
+    </section>
+    <footer> <!-- Pie de página -->
+			<h4>© クリス 2022 - Política de privacidad y cookies - Developed by ArtielSoraya</h4>
+	</footer>
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+    </script>
+    <script src="../js/custom.js" ></script>
+    	<script src="../js/app.js"></script>
+</body>
+</html>
