@@ -251,7 +251,7 @@ header::after{
 
 @media screen and (max-width: 600px) {
 	.index {
-	height: 90vh;
+	height: 70vh;
 }
 .botonPedir {
 	font-size: 12px;
