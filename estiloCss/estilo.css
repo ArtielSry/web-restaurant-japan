@@ -686,6 +686,7 @@ background-image: url(imagenes/segundaPortada1.png);
   display: block;
   width: 700px;  
   margin: auto;
+	padding:10px;
 }
 
 .contact label {
@@ -698,7 +699,7 @@ background-image: url(imagenes/segundaPortada1.png);
   border-bottom: 2px solid #fbe0d0;
   margin-bottom: 20px;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 14px;
   outline: none;
   color: gray;
  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
