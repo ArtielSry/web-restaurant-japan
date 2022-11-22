@@ -251,6 +251,7 @@ header::after{
 
 @media screen and (max-width: 600px) {
 	.index {
+	text-align: center;
 	height: 70vh;
 }
 .botonPedir {
@@ -342,8 +343,8 @@ header::after{
 
 @media screen and (max-width: 900px) {
 	.backgroundNosotros {
-		
 	background-image: url(imagenes/portadadefinitiva.png);
+	}
 	.nosotros {
 		width: 260px;
 		height: 1000px;
@@ -550,9 +551,9 @@ p.close-btn{
 	.carts a {
 		font-size: 14px;
 	}
-	.backgroundPedidos {
-		
+	.backgroundPedidos {	
 	background-image: url(imagenes/portadadefinitiva.png);
+	}
 }
 
 /* ---------------------------- RECETAS --------*/
@@ -622,8 +623,8 @@ background-image: url(imagenes/segundaPortada1.png);
 
 @media screen and (max-width: 900px) {
 	.backgroundRecetas {
-		
 	background-image: url(imagenes/portadadefinitiva.png);
+	}
 	.carts img {
 		width: 150px;
 	}
@@ -766,9 +767,9 @@ input[type='submit'] {
 }
 
 @media screen and (max-width: 500px) {
-	.backgroundContacto {
-		
+	.backgroundContacto {	
 	background-image: url(imagenes/portadadefinitiva.png);
+	}
 	.form{
 		padding-left: 5%;
 		padding-right: 5%;
