@@ -21,9 +21,10 @@ strong {
 /*----------------------------------------- NAV Y ENLACES DEL INDEX DE INICIO ----------------------------*/
 header{
 	width: 100vw;
+	height: 30px;
     color: #314855;
     margin-top: 30px;
-    position: relative;
+    position: absolute;
     z-index: 9999;
 }
 
@@ -119,6 +120,10 @@ header::after{
 }
 
 @media (max-width: 700px) {
+	.header {
+	    margin-top: 30px;
+	    position: relative;
+	}
 	.logo {
 		position: relative;
 		width: 360px;
