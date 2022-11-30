@@ -539,6 +539,8 @@ p.close-btn{
 	}
 	.products {
 		padding-top: 140px;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 	.carts{
 		height: 200px;
